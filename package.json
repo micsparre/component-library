@@ -2,7 +2,7 @@
   "name": "component-library",
   "version": "1.0.0",
   "description": "test building a component library",
-  "main": "components/testComponent.jsx",
+  "main": "components/testComponent.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
