@@ -2,7 +2,7 @@
   "name": "component-library",
   "version": "1.0.0",
   "description": "test building a component library",
-  "main": "compiled-components/TestComponent.js",
+  "main": "compiled-components",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js"
