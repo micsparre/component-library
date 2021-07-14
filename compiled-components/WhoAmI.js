@@ -1,7 +1,7 @@
 import * as React from 'react';
-export class TestComponent extends React.Component {
+export class WhoAmI extends React.Component {
   render() {
-    return /*#__PURE__*/React.createElement("div", null, "Who am I?");
+    return /*#__PURE__*/React.createElement("div", null, "Who am I? I wonder.");
   }
 
 }

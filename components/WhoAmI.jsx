@@ -4,7 +4,7 @@ export class WhoAmI extends React.Component {
     render() {
         return (
             <div>
-                Who am I?
+                Who am I? I wonder.
             </div>
         )
     }
