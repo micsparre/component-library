@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
-    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install",
+    "compile": "./node_modules/@babel/cli/bin/babel.js components -d compiled-components --plugins=@babel/plugin-transform-react-jsx"
   },
   "repository": {
     "type": "git",

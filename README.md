@@ -2,14 +2,14 @@
 Testing how to build a component library in Github and import to React. This will effectively clone the library for it to be used as a module in React. This is an alternative to publishing with npm and can be used as a free way of hosting private packages.
 
 ## important commands 
-In order to use components created with jsx, you must use the below command to compile the file and make it compatible with React. Anytime you edit the original jsx file, you must recompile with the below command.
+In order to use components created with jsx, you must use the below script to compile the file and make it compatible with React. Anytime you edit the original jsx file, you must recompile with the below command.
 
 ```sh
 # compiles all files in components directory and outputs in compiled-components (jsx -> js)
 
-# NOTE: in order to have the node_modules, you must run 'npm install' to load all the dependencies
+# NOTE: in order to have the node_modules, you must run 'npm install' to first load all the dependencies
 
-./node_modules/@babel/cli/bin/babel.js components -d compiled-components --plugins=@babel/plugin-transform-react-jsx 
+npm run compile
 ```
 
 ## how to import the library into your project
