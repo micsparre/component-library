@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/micsparre/component-library.git"
   },
-  "author": "",
+  "author": "Michael Sparre",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/micsparre/component-library/issues"
